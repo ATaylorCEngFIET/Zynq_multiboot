@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\hdl_projects\multiboot\multiboot.sdk\golden_fsbl\Debug\golden_fsbl.elf
+	C:\hdl_projects\multiboot\multiboot.sdk\design_1_wrapper_hw_platform_0\design_1_wrapper.bit
+	C:\hdl_projects\multiboot\multiboot.sdk\golden\Debug\golden.elf
+}

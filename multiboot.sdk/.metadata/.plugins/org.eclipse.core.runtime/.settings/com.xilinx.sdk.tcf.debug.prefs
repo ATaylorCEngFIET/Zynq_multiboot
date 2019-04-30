@@ -1,0 +1,3 @@
+com.xilinx.sdk.tcf.debug.xilinxtcflaunchdelegate.dont_show_debug_launch_warn=always
+dialog_settings.fpga_done_pin_check.Local=never
+eclipse.preferences.version=1

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="design_1_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="qspi-x1-single" key="design_1_wrapper_hw_platform_0-flashType"/>
+	<item value="false" key="zed_hw_platform-blankCheck"/>
+	<item value="qspi-x4-single" key="zed_hw_platform-flashType"/>
+	<item value="false" key="design_1_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="C:\hdl_projects\multiboot\multiboot.sdk\golden\bootimage\BOOT.bin" key="zed_hw_platform-imgFile"/>
+	<item value="false" key="design_1_wrapper_hw_platform_0-blankCheck"/>
+	<item value="C:\hdl_projects\multiboot\multiboot.sdk\golden_fsbl\Debug\golden_fsbl.elf" key="design_1_wrapper_hw_platform_0-fsblFile"/>
+	<item value="" key="design_1_wrapper_hw_platform_0-offSet"/>
+	<item value="Auto Detect" key="zed_hw_platform-device"/>
+	<item value="sl" key="design_1_wrapper_hw_platform_0-target"/>
+	<item value="C:\hdl_projects\multiboot\multiboot.sdk\golden\bootimage\BOOT.bin" key="design_1_wrapper_hw_platform_0-imgFile"/>
+	<item value="Auto Detect" key="design_1_wrapper_hw_platform_0-device"/>
+	<item value="" key="zed_hw_platform-offSet"/>
+	<item value="C:\hdl_projects\multiboot\multiboot.sdk\golden_fsbl\Debug\golden_fsbl.elf" key="zed_hw_platform-fsblFile"/>
+	<item value="Local" key="zed_hw_platform-target"/>
+	<item value="false" key="zed_hw_platform-verifyFlash"/>
+</section>

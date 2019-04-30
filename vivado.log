@@ -1,0 +1,1289 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 30 15:57:10 2019
+# Process ID: 19828
+# Current directory: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14656
+# Log file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+WARNING: [Common 17-1271] The MYVIVADO environment variable specifies an invalid location 'C:\Xilinx\Vivado\2017.4\patches\AR70530\vivado'
+start_gui
+open_hw
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_hw: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 731.797 ; gain = 140.734
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+WARNING: Ignoring invalid XILINX_PATH location C:\Xilinx\Vivado\2017.4\patches\AR70530\vivado.
+Resolution: An invalid XILINX_PATH location has been detected. To resolve this issue:
+
+1. Verify the value of XILINX_PATH is accurate by viewing the value the variable via 'set XILINX_PATH' for Windows or 'echo $XILINX_PATH' for Linux, and update it as needed.
+
+2. To unset the variable using on Windows using 'set XILINX_PATH=' or remove it from Advanced System Settings\Environment Variables. On Linux 'unsetenv XILINX_PATH'
+
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1638.180 ; gain = 896.109
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210248722849.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7z020_1] 0] [lindex [get_cfgmem_parts {s25fl256s-3.3v-qspi-x4-single}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [Labtools 27-3419] Disconnecting from hw_server since it's not responding to requests.  It is recommended to investigate hw_server to find any issues.
+ERROR: [Xicom 50-162] Timed out while waiting for uboot prompt.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:02:11 . Memory (MB): peak = 1728.035 ; gain = 0.000
+INFO: [Common 17-344] 'program_hw_cfgmem' was cancelled
+ERROR: [Labtoolstcl 44-514] HW Server shutdown. Disconnecting from server: localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+ERROR: [Labtools 27-2312] Device arm_dap_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248722849
+ERROR: [Labtools 27-2312] Device arm_dap_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248722849
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249A06300
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7z010_1] 0] [lindex [get_cfgmem_parts {s25fl128s-3.3v-qspi-x1-single}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [Labtools 27-3419] Disconnecting from hw_server since it's not responding to requests.  It is recommended to investigate hw_server to find any issues.
+ERROR: [Xicom 50-162] Timed out while waiting for uboot prompt.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:02:25 . Memory (MB): peak = 1739.105 ; gain = 0.000
+INFO: [Common 17-344] 'program_hw_cfgmem' was cancelled
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210249A06300
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249A06300
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7z010_1] 0] [lindex [get_cfgmem_parts {s25fl128s-3.3v-qspi-x1-single}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z010_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+open_project C:/hdl_projects/multiboot/multiboot.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/HDL_projects_git/AT426-BU-98000-r0p0-00rel0/AT426-BU-98000-r0p0-00rel0/AT426-BU-98000-r0p0-00rel0/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 1812.781 ; gain = 73.676
+current_project {New Project}
+close_project
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19828-DESKTOP-HQKVQ13/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19828-DESKTOP-HQKVQ13/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Tue Apr 30 16:40:59 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 30 16:40:59 2019...
+close_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1823.512 ; gain = 8.176
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/hdl_projects/multiboot/multiboot.sdk -hwspec C:/hdl_projects/multiboot/multiboot.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/hdl_projects/multiboot/multiboot.sdk -hwspec C:/hdl_projects/multiboot/multiboot.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {C:/hdl_projects/multiboot/multiboot.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Successfully read diagram <design_1> from BD file <C:/hdl_projects/multiboot/multiboot.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1885.266 ; gain = 61.754
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.073 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.072 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.073 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.072 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.073 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.072 . PS DDR interfaces might fail when entering negative DQS skew values. 
+launch_sdk -workspace C:/hdl_projects/multiboot/multiboot.sdk -hwspec C:/hdl_projects/multiboot/multiboot.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/hdl_projects/multiboot/multiboot.sdk -hwspec C:/hdl_projects/multiboot/multiboot.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249A06300
+set_property PROGRAM.FILE {C:/hdl_projects/multiboot/multiboot.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+boot_hw_device  [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtoolstcl 44-664] Will wait up to 180 seconds for booting to complete.
+INFO: [Labtools 27-2278] Zynq reset successful
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7z020_1] 0] [lindex [get_cfgmem_parts {s25fl128s-3.3v-qspi-x4-single}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [Labtools 27-3419] Disconnecting from hw_server since it's not responding to requests.  It is recommended to investigate hw_server to find any issues.
+ERROR: [Xicom 50-162] Timed out while waiting for uboot prompt.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+program_hw_cfgmem: Time (s): cpu = 00:00:06 ; elapsed = 00:03:29 . Memory (MB): peak = 1983.004 ; gain = 5.371
+INFO: [Common 17-344] 'program_hw_cfgmem' was cancelled
+ERROR: [Labtoolstcl 44-514] HW Server shutdown. Disconnecting from server: localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249A06300
+set_property PROGRAM.FILE {C:/hdl_projects/multiboot/multiboot.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_0]
+current_hw_device [get_hw_devices xc7z020_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_0] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 0) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [get_hw_devices xc7z020_0] -mem_dev [lindex [get_cfgmem_parts {s25fl128s-3.3v-qspi-x1-single}] 0]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+ERROR: [Xicom 50-60] Connect operation failed. Please make sure that the device is active.
+Problem in Connecting to Target
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_0] 0]]
+ERROR: [Xicom 50-60] Connect operation failed. Please make sure that the device is active.
+Problem in Connecting to Target
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210249A06300
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249A06300
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [Labtools 27-3419] Disconnecting from hw_server since it's not responding to requests.  It is recommended to investigate hw_server to find any issues.
+ERROR: [Xicom 50-162] Timed out while waiting for uboot prompt.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+program_hw_cfgmem: Time (s): cpu = 00:00:06 ; elapsed = 00:01:43 . Memory (MB): peak = 1998.008 ; gain = 0.344
+INFO: [Common 17-344] 'program_hw_cfgmem' was cancelled
+ERROR: [Labtoolstcl 44-514] HW Server shutdown. Disconnecting from server: localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.1.178:3121
+connect_hw_server -url 192.168.1.178:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.1.178:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+set_property PARAM.FREQUENCY 40000000 [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+set_property PROGRAM.FILE {C:/hdl_projects/multiboot/multiboot.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [get_hw_devices xc7z020_1] -mem_dev [lindex [get_cfgmem_parts {s25fl128s-3.3v-qspi-x1-single}] 0]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+set_property CFGMEM_PART {s25fl128s-3.3v-qspi-x4-single} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+close_hw
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.073 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.072 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.073 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.072 . PS DDR interfaces might fail when entering negative DQS skew values. 
+close_bd_design [get_bd_designs design_1]
+open_hw
+connect_hw_server -url 192.168.1.178:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.1.178:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+set_property PARAM.FREQUENCY 40000000 [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+set_property PROGRAM.FILE {C:/hdl_projects/multiboot/multiboot.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+create_hw_cfgmem -hw_device [get_hw_devices xc7z020_1] -mem_dev [lindex [get_cfgmem_parts {s25fl128s-3.3v-qspi-x4-single}] 0]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 9 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 28 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:01:03 . Memory (MB): peak = 2061.668 ; gain = 3.383
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {262144} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 6 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 21 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 25 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:00:56 . Memory (MB): peak = 2064.852 ; gain = 0.336
+endgroup
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 10 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 27 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:01 ; elapsed = 00:01:02 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 10 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 27 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:01:02 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 9 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 23 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 28 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:01:04 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 30 sec.
+Performing Blank Check Operation...
+INFO: [Xicom 50-44] Elapsed time = 107 sec.
+Blank Check Operation successful. The part is blank.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 28 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:07 ; elapsed = 00:03:11 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {262144} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 7 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 27 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:00:59 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {262144} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+WARNING: [Xicom 50-100] The current boot mode is QSPI.
+If flash programming fails, configure device for JTAG boot mode and try again.
+Problem in running uboot
+Flash programming initialization failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {262144} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 31 sec.
+Performing Blank Check Operation...
+INFO: [Xicom 50-44] Elapsed time = 109 sec.
+Blank Check Operation successful. The part is blank.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 27 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:08 ; elapsed = 00:03:12 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 31 sec.
+Performing Blank Check Operation...
+INFO: [Xicom 50-44] Elapsed time = 109 sec.
+Blank Check Operation successful. The part is blank.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 27 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:07 ; elapsed = 00:03:13 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {1048576} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 6 sec.
+Performing Blank Check Operation...
+INFO: [Xicom 50-44] Elapsed time = 28 sec.
+Blank Check Operation successful. The part is blank.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 21 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 27 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:04 ; elapsed = 00:01:26 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 31 sec.
+Performing Blank Check Operation...
+INFO: [Xicom 50-44] Elapsed time = 107 sec.
+Blank Check Operation successful. The part is blank.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 23 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 27 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:07 ; elapsed = 00:03:11 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {1048576} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 19 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 0 sec.
+Verify Operation unsuccessful.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+program_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:23 . Memory (MB): peak = 2069.469 ; gain = 0.000
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {1048576} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 19 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 0 sec.
+Verify Operation unsuccessful.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:00:23 . Memory (MB): peak = 2069.469 ; gain = 0.000
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {1048576} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 7 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 21 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 29 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:01:00 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+disconnect_hw_server 192.168.1.178:3121
+connect_hw_server -url 192.168.1.178:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.1.178:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+set_property PARAM.FREQUENCY 40000000 [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+ERROR: [Labtools 27-2269] No devices detected on target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw_target {192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0}
+INFO: [Labtoolstcl 44-464] Closing hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+disconnect_hw_server 192.168.1.178:3121
+connect_hw_server -url 192.168.1.178:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.1.178:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+set_property PARAM.FREQUENCY 40000000 [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+ERROR: [Labtools 27-2269] No devices detected on target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+refresh_hw_target {192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0}
+ERROR: [Labtools 27-2269] No devices detected on target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'refresh_hw_target' failed due to earlier errors.
+close_hw_target {192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0}
+INFO: [Labtoolstcl 44-464] Closing hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+disconnect_hw_server 192.168.1.178:3121
+connect_hw_server -url 192.168.1.178:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.1.178:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+set_property PARAM.FREQUENCY 40000000 [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+ERROR: [Labtools 27-2269] No devices detected on target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtools 27-2269] No devices detected on target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+close_hw_target {192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0}
+INFO: [Labtoolstcl 44-464] Closing hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+refresh_hw_server {192.168.1.178:3121}
+disconnect_hw_server 192.168.1.178:3121
+connect_hw_server -url 192.168.1.178:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.1.178:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+set_property PARAM.FREQUENCY 40000000 [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+set_property PROGRAM.FILE {C:/hdl_projects/multiboot/multiboot.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [get_hw_devices xc7z020_1] -mem_dev [lindex [get_cfgmem_parts {s25fl128s-3.3v-qspi-x4-single}] 0]
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 31 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 26 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:01:23 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtools 27-2312] Device xc7z020_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {67108864} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 31 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 15 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 1 sec.
+Verify Operation unsuccessful.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:00:50 . Memory (MB): peak = 2069.469 ; gain = 0.000
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/golden/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {8388608} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 31 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 27 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:06 ; elapsed = 00:01:24 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 10 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 28 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:01:03 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.FILES [list "C:/hdl_projects/multiboot/multiboot.sdk/update/bootimage/BOOT.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BIN_OFFSET {0} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ZYNQ_FSBL {C:/hdl_projects/multiboot/multiboot.sdk/golden_fsbl/Debug/golden_fsbl.elf} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+startgroup 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7z020_1] 0]]
+f probe 0 0 0
+Performing Erase Operation...
+Erase Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 10 sec.
+Performing Program Operation...
+Program Operation successful.
+INFO: [Xicom 50-44] Elapsed time = 22 sec.
+Performing Verify Operation...
+INFO: [Xicom 50-44] Elapsed time = 28 sec.
+Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:01:04 . Memory (MB): peak = 2069.469 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+disconnect_hw_server 192.168.1.178:3121
+connect_hw_server -url 192.168.1.178:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.1.178:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+set_property PARAM.FREQUENCY 40000000 [get_hw_targets */xilinx_tcf/Xilinx/AAo1BId+0]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+set_property PROGRAM.FILE {C:/hdl_projects/multiboot/multiboot.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [get_hw_devices xc7z020_1] -mem_dev [lindex [get_cfgmem_parts {s25fl128s-3.3v-qspi-x4-single}] 0]
+boot_hw_device  [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtoolstcl 44-664] Will wait up to 180 seconds for booting to complete.
+INFO: [Labtools 27-2278] Zynq reset successful
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.1.178:3121/xilinx_tcf/Xilinx/AAo1BId+0
+close_hw
+archive_project C:/hdl_projects/multiboot.xpr.zip -temp_dir C:/temp -force -exclude_run_results -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/temp' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/HDL_projects_git/AT426-BU-98000-r0p0-00rel0/AT426-BU-98000-r0p0-00rel0/AT426-BU-98000-r0p0-00rel0/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_processing_system7_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
